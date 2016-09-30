@@ -1,6 +1,6 @@
 body {
 	font-family: 'Lato', sans-serif;
-	background-image: url(images\grid.png);
+	background-image: url("images\grid.png");
 	margin:20px;
 	padding:10px 5px 15px 20px;
 	}
@@ -106,6 +106,16 @@ h2 {
 	top:30px;
 	left:410px;
 	color:#F0D8E5;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: red;
+  text-align: center;
 }
 
 
